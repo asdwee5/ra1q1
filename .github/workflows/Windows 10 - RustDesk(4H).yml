@@ -17,6 +17,9 @@ jobs:
 
       - name: Log In To AnyDesk
         run: cmd /c show.bat
-
-      - name: Time Counter
+        
+      - name: Start-Sleep
         run: Start-Sleep -Seconds 21600
+       
+      - name: Time Counter
+        
